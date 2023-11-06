@@ -462,6 +462,7 @@ body {
 
   width: 824px;
   margin-bottom: 20px;
+
 }
 .text__delivery p {
   color: var(--1, #1f2428);
@@ -471,12 +472,14 @@ body {
   line-height: 36px; /* 180% */
 
   width: 760px;
+  margin-bottom: 50px;
 }
 
 .delivery__info {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   width: 1400px;
   height: 270px;
@@ -534,4 +537,14 @@ body {
   border-radius: 36px;
   background: linear-gradient(90deg, #00c97b 0%, #00d981 96.96%);
   box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.2);
+  border: none;
+
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.delivery__info button:hover {
+  border: 1px solid #00d981;
+  background: transparent;
+  color: #222;
 }
