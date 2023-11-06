@@ -334,10 +334,55 @@ body {
   line-height: 36px;
 }
 
-.left__pants{
+.left__pants {
   display: flex;
   align-items: center;
   justify-content: end;
+}
+
+.features__container {
+  width: 1400px;
+  height: 180px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: var(--5, #fff);
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
+margin-top: 162px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.econom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  border-right: 1px solid #c0c9d7;
+  height: 135.5px;
+}
+.econom p {
+  color: var(--1, #1f2428);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  width: 88px;
+  margin-right: 70px;
+}
+
+.produk p {
+  width: 162px;
+}
+.dostavka p {
+  width: 120px;
+}
+.tovar p {
+  width: 138px;
+}
+.tovar {
+  border: none;
 }
 
 
