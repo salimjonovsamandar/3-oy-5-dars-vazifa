@@ -218,5 +218,126 @@ body {
 
 .pukupat__blok .material:hover {
   background: var(--6, #f2f6fc);
-
 }
+
+/* sale */
+.sale__container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.left__sale h3 {
+  color: var(--1, #1f2428);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+
+  width: 400px;
+
+  margin-bottom: 44px;
+}
+.sale__sity {
+  width: 400px;
+  height: 120px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: #f2f6fc;
+
+  display: flex;
+  align-items: center;
+  padding: 34px;
+  gap: 28px;
+}
+
+.sale__sity img {
+  width: 75px;
+  height: 54px;
+  flex-shrink: 0;
+
+  border-radius: 8px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.sale__sity p {
+  color: var(--1, #1f2428);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+.sale__sity h5 {
+  color: var(--1, #1f2428);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+}
+.left__img {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  margin-top: 163px;
+}
+
+.center__sale img {
+  width: 499px;
+  height: 475px;
+}
+
+.center__sale p {
+  color: var(--1, #1f2428);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 133.333% */
+  margin-top: 33px;
+  margin-bottom: 7px;
+}
+
+.center__sale h5 {
+  color: var(--1, #1f2428);
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+}
+
+.center__sale h5 span {
+  color: var(--7, #01cd7d);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.right__sale h3 {
+  color: var(--1, #1f2428);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 138.462% */
+
+  width: 338px;
+  margin-bottom: 44px;
+}
+
+.right__sale h3 span {
+  color: var(--7, #01cd7d);
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.left__pants{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
