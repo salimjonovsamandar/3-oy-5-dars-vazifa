@@ -30,7 +30,7 @@ body {
   list-style: none;
 }
 .nav_block ul a {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -59,7 +59,7 @@ body {
 }
 
 .registratoin .user p {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -74,7 +74,7 @@ body {
 }
 
 .nav_button button {
-  color: var(--1, #fff);
+  color: #fff;
   text-align: center;
   font-size: 13px;
   font-style: normal;
@@ -122,7 +122,7 @@ body {
 }
 
 .main__container .main__text h3 {
-  color: var(--4, #fff);
+  color: #fff;
   font-size: 72px;
   font-style: normal;
   font-weight: 800;
@@ -132,7 +132,7 @@ body {
 }
 
 .main__container .main__text p {
-  color: var(--4, #fff);
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -142,7 +142,7 @@ body {
 }
 
 .main__container .main__text button {
-  color: var(--1, #fff);
+  color: #fff;
   text-align: center;
   font-size: 17px;
   font-style: normal;
@@ -173,7 +173,7 @@ body {
 }
 
 .pukupat__text h3 {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 44px;
   font-style: normal;
   font-weight: 800;
@@ -190,7 +190,7 @@ body {
   flex-shrink: 0;
 
   border-radius: 16px;
-  background: var(--5, #fff);
+  background: #fff;
   box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
 
   display: flex;
@@ -217,7 +217,7 @@ body {
 }
 
 .pukupat__blok .material:hover {
-  background: var(--6, #f2f6fc);
+  background: #f2f6fc;
 }
 
 /* sale */
@@ -227,7 +227,7 @@ body {
   justify-content: space-between;
 }
 .left__sale h3 {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -261,7 +261,7 @@ body {
 }
 
 .sale__sity p {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -269,7 +269,7 @@ body {
 }
 
 .sale__sity h5 {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -288,7 +288,7 @@ body {
 }
 
 .center__sale p {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -299,7 +299,7 @@ body {
 }
 
 .center__sale h5 {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   text-align: center;
   font-size: 26px;
   font-style: normal;
@@ -308,7 +308,7 @@ body {
 }
 
 .center__sale h5 span {
-  color: var(--7, #01cd7d);
+  color: #01cd7d;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -316,7 +316,7 @@ body {
 }
 
 .right__sale h3 {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -327,7 +327,7 @@ body {
 }
 
 .right__sale h3 span {
-  color: var(--7, #01cd7d);
+  color: #01cd7d;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -340,19 +340,20 @@ body {
   justify-content: end;
 }
 
+/* features */
 .features__container {
   width: 1400px;
   height: 180px;
   flex-shrink: 0;
 
   border-radius: 16px;
-  background: var(--5, #fff);
+  background: #fff;
   box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.1);
-margin-top: 162px;
+  margin-top: 162px;
+  margin-bottom: 160px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 .econom {
   display: flex;
@@ -363,7 +364,7 @@ margin-top: 162px;
   height: 135.5px;
 }
 .econom p {
-  color: var(--1, #1f2428);
+  color: #1f2428;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -384,5 +385,3 @@ margin-top: 162px;
 .tovar {
   border: none;
 }
-
-
